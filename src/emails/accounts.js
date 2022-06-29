@@ -19,11 +19,11 @@ const sendWelcomeEmail= (email,name) =>{
 
 
     transport.sendMail(mailoption, function(error,info){
-        if(error){
-            console.log(error);
-        } else{
-            console.log('email sent', info.response)
-        }
+        // if(error){
+        //     console.log(error);
+        // } else{
+        //     console.log('email sent', info.response)
+        // }
     })
 }
 
@@ -39,11 +39,11 @@ const sendCancellationEmail= (email,name) =>{
 
 
 transport.sendMail(mailoption, function(error,info){
-    if(error){
-        console.log(error);
-    } else{
-        console.log('email sent', info.response)
-    }
+    // if(error){
+    //     console.log(error);
+    // } else{
+    //     console.log('email sent', info.response)
+    // }
 })
 }
 
